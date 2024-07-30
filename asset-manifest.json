@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/invitation-card/static/css/main.4da7ad1c.css",
-    "main.js": "/invitation-card/static/js/main.ab6e3412.js",
-    "static/media/kids.jpg": "/invitation-card/static/media/kids.726b769fec93fa7ae08b.jpg",
-    "static/media/ArmAllegroU.ttf": "/invitation-card/static/media/ArmAllegroU.1fa2762cd0d05d86cd2b.ttf",
-    "static/media/restaurant.png": "/invitation-card/static/media/restaurant.05cc44f1049c94025996.png",
-    "index.html": "/invitation-card/index.html",
-    "main.4da7ad1c.css.map": "/invitation-card/static/css/main.4da7ad1c.css.map",
-    "main.ab6e3412.js.map": "/invitation-card/static/js/main.ab6e3412.js.map"
+    "main.css": "/invite/static/css/main.1e5d9983.css",
+    "main.js": "/invite/static/js/main.086c229a.js",
+    "static/media/kids.jpg": "/invite/static/media/kids.726b769fec93fa7ae08b.jpg",
+    "static/media/ArmAllegroU.ttf": "/invite/static/media/ArmAllegroU.1fa2762cd0d05d86cd2b.ttf",
+    "static/media/restaurant.png": "/invite/static/media/restaurant.05cc44f1049c94025996.png",
+    "index.html": "/invite/index.html",
+    "main.1e5d9983.css.map": "/invite/static/css/main.1e5d9983.css.map",
+    "main.086c229a.js.map": "/invite/static/js/main.086c229a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4da7ad1c.css",
-    "static/js/main.ab6e3412.js"
+    "static/css/main.1e5d9983.css",
+    "static/js/main.086c229a.js"
   ]
 }
