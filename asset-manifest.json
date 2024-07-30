@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/invitation-card/static/css/main.9691f5fe.css",
+    "main.js": "/invitation-card/static/js/main.bf3686f9.js",
+    "static/media/kids.jpg": "/invitation-card/static/media/kids.726b769fec93fa7ae08b.jpg",
+    "static/media/ArmAllegroU.ttf": "/invitation-card/static/media/ArmAllegroU.1fa2762cd0d05d86cd2b.ttf",
+    "static/media/restaurant.png": "/invitation-card/static/media/restaurant.05cc44f1049c94025996.png",
+    "index.html": "/invitation-card/index.html",
+    "main.9691f5fe.css.map": "/invitation-card/static/css/main.9691f5fe.css.map",
+    "main.bf3686f9.js.map": "/invitation-card/static/js/main.bf3686f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9691f5fe.css",
+    "static/js/main.bf3686f9.js"
+  ]
+}
