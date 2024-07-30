@@ -8,7 +8,7 @@ const Information = () => {
     {
       name: "եկեղեցի",
       image: churchImage,
-      time: "13:00",
+      time: "15:30",
       link: "https://www.google.com/maps/place/St.+Erordutyun+Church/@40.1743787,44.4398475,17z/data=!3m1!4b1!4m6!3m5!1s0x406abde6493654bd:0xb207688653b878a9!8m2!3d40.1743746!4d44.4424224!16s%2Fm%2F06w4qry?entry=ttu&fbclid=IwY2xjawEVlktleHRuA2FlbQIxMAABHVvjKnwvfhSck7EQNBCKkDZgbgB30X-d5MLr5yv9ygGabGxQc3krIvaMwQ_aem_oTRH7o64kB1urWABxBR2lA"
     },
     {
