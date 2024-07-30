@@ -9,6 +9,13 @@
     font-family: 'Great Vibes', cursive;
     font-size: 2em;
     color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .information h4 {
+    font-family: 'Noto Serif Armenian', serif;
+    font-size: 1.2em;
+    color: #666;
     margin-bottom: 20px;
   }
   
@@ -45,12 +52,15 @@
   /* Responsive styles */
   @media (max-width: 768px) {
     .info-box {
-      width: 150px;
       padding: 8px;
     }
   
     .information h2 {
       font-size: 1.8em;
+    }
+  
+    .information h4 {
+      font-size: 1em;
     }
   
     .info-time {
@@ -60,12 +70,15 @@
   
   @media (max-width: 480px) {
     .info-box {
-      width: 120px;
       padding: 5px;
     }
   
     .information h2 {
       font-size: 1.5em;
+    }
+  
+    .information h4 {
+      font-size: 0.9em;
     }
   
     .info-time {

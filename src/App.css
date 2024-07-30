@@ -1,4 +1,10 @@
 /* General styles */
+@font-face {
+  font-family: 'ArmAllegro';
+  src: url('../public/fonts/ArmAllegroU.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0;
   padding: 0;
@@ -12,11 +18,11 @@ body {
 .invitation-card {
   text-align: center;
   padding: 20px;
-  font-family: 'Noto Serif Armenian', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 h1 {
-  font-family: 'Noto Serif Armenian', serif;
+  font-family: 'ArmAllegro', cursive;
   font-size: 3em;
   color: #333;
   margin-bottom: 20px;
@@ -25,6 +31,7 @@ h1 {
 .container {
   display: flex;
   justify-content: center;
+
 }
 
 .invitation-image {
@@ -46,6 +53,7 @@ h1 {
   background: #ffffff;
   box-shadow: 8px 8px 16px #c7c7c7, -8px -8px 16px #ffffff;
 }
+
 .contents-box {
   margin-left: 20px;
   max-width: 60%;
@@ -53,9 +61,9 @@ h1 {
   gap: 20px;
   flex-direction: column;
 }
+
 .content-container {
   padding: 20px;
-  margin-left: 20px;
   border-radius: 28px;
   background: #ffffff;
   box-shadow: 8px 8px 16px #c7c7c7, -8px -8px 16px #ffffff;
@@ -76,21 +84,27 @@ p {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-  .invitation-card {
+  .container {
+    flex-direction: column; /* Stack items vertically on tablets and small desktops */
+  }
+
+  .image-container {
+    max-width: 100%; /* Full width on smaller screens */
+    margin-bottom: 20px;
+  }
+
+  .contents-box {
+    max-width: 100%; /* Full width on smaller screens */
+    margin-left: 0;
+  }
+
+  .content-container {
+    margin: 0;
     padding: 10px;
   }
 
   .countdown-timer {
     font-size: 1.2em;
-  }
-
-  .content-container {
-    max-width: 100%;
-    margin-left: 0;
-  }
-
-  .container {
-    flex-direction: column;
   }
 }
 
@@ -99,15 +113,27 @@ p {
     padding: 5px;
   }
 
-  .countdown-timer {
-    font-size: 1em;
-  }
-
   h1 {
     font-size: 2em;
   }
 
   p {
     font-size: 1em;
+  }
+
+  .countdown-timer {
+    font-size: 1em;
+  }
+
+  .image-container {
+    margin-bottom: 15px;
+  }
+
+  .contents-box {
+    gap: 15px;
+  }
+
+  .content-container {
+    padding: 5px;
   }
 }
