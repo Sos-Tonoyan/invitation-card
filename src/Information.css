@@ -1,0 +1,75 @@
+/* Information.css */
+
+.information {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .information h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .info-box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 4px 4px 8px #c7c7c7, -4px -4px 8px #ffffff;
+    text-align: center;
+  }
+  
+  .info-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .info-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .info-time {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .info-box {
+      width: 150px;
+      padding: 8px;
+    }
+  
+    .information h2 {
+      font-size: 1.8em;
+    }
+  
+    .info-time {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .info-box {
+      width: 120px;
+      padding: 5px;
+    }
+  
+    .information h2 {
+      font-size: 1.5em;
+    }
+  
+    .info-time {
+      font-size: 0.9em;
+    }
+  }
+  

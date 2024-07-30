@@ -1,45 +1,76 @@
 /* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Serif Armenian', serif;
+  background: #f0f0f0; /* Light background color for the page */
+}
+
 .invitation-card {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
   text-align: center;
   padding: 20px;
-  font-family: Arial, sans-serif;
+  font-family: 'Noto Serif Armenian', serif;
+}
+
+h1 {
+  font-family: 'Noto Serif Armenian', serif;
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .container {
   display: flex;
+  justify-content: center;
 }
 
 .invitation-image {
   max-width: 100%;
   height: auto;
-  /* margin: 20px; */
-  /* padding: 20px; */
   transition: transform 0.2s ease 0s;
   border-radius: 28px;
 }
 
 .invitation-image:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
   transform: scale(1.05);
-  transition: transform 0.2s ease 0s;
 }
 
 .image-container {
   max-width: 25%;
+  height: fit-content;
   padding: 10px;
   border-radius: 28px;
   background: #ffffff;
-  box-shadow: 8px 8px 16px #c7c7c7,
-    -8px -8px 16px #ffffff;
+  box-shadow: 8px 8px 16px #c7c7c7, -8px -8px 16px #ffffff;
+}
+.contents-box {
+  margin-left: 20px;
+  max-width: 60%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.content-container {
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 28px;
+  background: #ffffff;
+  box-shadow: 8px 8px 16px #c7c7c7, -8px -8px 16px #ffffff;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #555;
+  margin-bottom: 20px;
 }
 
 .countdown-timer {
   font-size: 1.5em;
+  color: #d9534f;
   margin-top: 20px;
 }
 
@@ -51,6 +82,15 @@
 
   .countdown-timer {
     font-size: 1.2em;
+  }
+
+  .content-container {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .container {
+    flex-direction: column;
   }
 }
 
@@ -64,7 +104,7 @@
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   p {

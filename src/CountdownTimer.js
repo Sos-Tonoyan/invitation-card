@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './CountdownTimer.css';
 
 const CountdownTimer = () => {
   const calculateTimeLeft = () => {
@@ -30,8 +31,23 @@ const CountdownTimer = () => {
   return (
     <div className="countdown-timer">
       {timeLeft.days !== undefined ? (
-        <div>
-          {timeLeft.days} days {timeLeft.hours} hours {timeLeft.minutes} minutes {timeLeft.seconds} seconds
+        <div className="time-boxes">
+          <div className="time-box">
+            <span className="time">{timeLeft.days}</span>
+            <span className="label">Օր</span>
+          </div>
+          <div className="time-box">
+            <span className="time">{timeLeft.hours}</span>
+            <span className="label">Ժամ</span>
+          </div>
+          <div className="time-box">
+            <span className="time">{timeLeft.minutes}</span>
+            <span className="label">Րոպե</span>
+          </div>
+          <div className="time-box">
+            <span className="time">{timeLeft.seconds}</span>
+            <span className="label">Վայրկյան</span>
+          </div>
         </div>
       ) : (
         <div>Time's up!</div>
