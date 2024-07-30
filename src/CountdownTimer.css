@@ -24,10 +24,12 @@
   .time {
     font-size: 1.5em;
     color: #d9534f;
+    font-family: 'Noto Serif Armenian', serif;
   }
   
   .label {
     font-size: 0.8em;
     color: #555;
+    font-family: 'Noto Serif Armenian', serif;
   }
   

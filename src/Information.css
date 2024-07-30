@@ -1,12 +1,17 @@
 /* Information.css */
-
+@font-face {
+    font-family: 'ArmAllegro';
+    src: url('../public/fonts/ArmAllegroU.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 .information {
     text-align: center;
     margin-top: 20px;
   }
   
   .information h2 {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'ArmAllegro', cursive;
     font-size: 2em;
     color: #333;
     margin-bottom: 10px;
@@ -47,6 +52,7 @@
     font-size: 1.2em;
     color: #555;
     margin-top: 10px;
+    font-family: 'Noto Serif Armenian', serif;
   }
   
   /* Responsive styles */

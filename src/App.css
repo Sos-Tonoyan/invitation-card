@@ -18,7 +18,7 @@ body {
 .invitation-card {
   text-align: center;
   padding: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'ArmAllegro', cursive;
 }
 
 h1 {
@@ -70,7 +70,7 @@ h1 {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 28px;
   line-height: 1.5em;
   color: #555;
   margin-bottom: 20px;
