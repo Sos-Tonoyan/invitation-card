@@ -3,7 +3,7 @@ import './CountdownTimer.css';
 
 const CountdownTimer = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date('2024-08-15') - +new Date();
+    const difference = +new Date('2026-06-06') - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -34,19 +34,19 @@ const CountdownTimer = () => {
         <div className="time-boxes">
           <div className="time-box">
             <span className="time">{timeLeft.days}</span>
-            <span className="label">Օր</span>
+            <span className="label">Days</span>
           </div>
           <div className="time-box">
             <span className="time">{timeLeft.hours}</span>
-            <span className="label">Ժամ</span>
+            <span className="label">Hours</span>
           </div>
           <div className="time-box">
             <span className="time">{timeLeft.minutes}</span>
-            <span className="label">Րոպե</span>
+            <span className="label">Minutes</span>
           </div>
           <div className="time-box">
             <span className="time">{timeLeft.seconds}</span>
-            <span className="label">Վայրկյան</span>
+            <span className="label">Seconds</span>
           </div>
         </div>
       ) : (

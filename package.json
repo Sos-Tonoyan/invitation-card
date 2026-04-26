@@ -1,8 +1,8 @@
 {
-  "name": "invitation-card",
+  "name": "invite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sos-tonoyan.github.io/invitation-card/",
+  "homepage": "https://maryalbina.github.io/invite/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
