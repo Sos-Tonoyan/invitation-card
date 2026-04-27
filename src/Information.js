@@ -6,13 +6,13 @@ import './Information.css';
 const Information = () => {
   const locations = [
     {
-      name: "եկեղեցի",
+      name: "Church",
       image: churchImage,
       time: "14:00",
       link: "https://maps.app.goo.gl/jQp5xrgGHNcU5viz8"
     },
     {
-      name: "ռեստորան",
+      name: "Restaurant",
       image: restaurantImage,
       time: "18:00",
       link: "https://maps.app.goo.gl/N82fUUD1ZtPguPLQA"
@@ -30,7 +30,7 @@ const Information = () => {
           </a>
           <div className="info-time">
             {location.name} <br/>
-            Ժամը {location.time}
+            at {location.time}
           </div>
         </div>
       ))}

@@ -7,7 +7,7 @@ import Information from './Information';
 function App() {
   return (
     <div className="invitation-card">
-      <h1>ნათლობა(մկրտություն)</h1>
+      <h1>ᲜᲐᲗᲚᲝᲑᲐ | ՄԿՐՏՈՒԹՅՈՒՆ</h1>
       <div className="container">
         <div className="image-container">
           <img src={kidsImage} alt="Wedding" className="invitation-image" />
