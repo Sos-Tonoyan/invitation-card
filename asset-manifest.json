@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/invitation-card/static/css/main.34f14a79.css",
-    "main.js": "/invitation-card/static/js/main.a4bd2644.js",
+    "main.js": "/invitation-card/static/js/main.c9d919a8.js",
     "static/media/kids2.jpeg": "/invitation-card/static/media/kids2.b953c00d6212b11512e4.jpeg",
     "static/media/restaurant.png": "/invitation-card/static/media/restaurant.05cc44f1049c94025996.png",
     "index.html": "/invitation-card/index.html",
     "main.34f14a79.css.map": "/invitation-card/static/css/main.34f14a79.css.map",
-    "main.a4bd2644.js.map": "/invitation-card/static/js/main.a4bd2644.js.map"
+    "main.c9d919a8.js.map": "/invitation-card/static/js/main.c9d919a8.js.map"
   },
   "entrypoints": [
     "static/css/main.34f14a79.css",
-    "static/js/main.a4bd2644.js"
+    "static/js/main.c9d919a8.js"
   ]
 }
