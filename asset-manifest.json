@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/invite/static/css/main.f85ad9ed.css",
+    "main.css": "/invite/static/css/main.34f14a79.css",
     "main.js": "/invite/static/js/main.405676d1.js",
     "static/media/kids2.jpeg": "/invite/static/media/kids2.b953c00d6212b11512e4.jpeg",
-    "static/media/SHK_Dzeragir.otf": "/invite/static/media/SHK_Dzeragir.706a377fba825da38f8f.otf",
     "static/media/restaurant.png": "/invite/static/media/restaurant.05cc44f1049c94025996.png",
     "index.html": "/invite/index.html",
-    "main.f85ad9ed.css.map": "/invite/static/css/main.f85ad9ed.css.map",
+    "main.34f14a79.css.map": "/invite/static/css/main.34f14a79.css.map",
     "main.405676d1.js.map": "/invite/static/js/main.405676d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f85ad9ed.css",
+    "static/css/main.34f14a79.css",
     "static/js/main.405676d1.js"
   ]
 }
